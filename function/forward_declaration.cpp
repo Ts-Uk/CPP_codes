@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+void sayhello();
+int main (){
+ sayhello();
+    return 0;
+}
+void sayhello(){
+    cout << "what's up bro";
+}
