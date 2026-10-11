@@ -15,15 +15,15 @@ This repository is my learning log for C++ and my path into competitive programm
 - [x] Input and output (`cin`, `cout`)
 - [x] Operators and arithmetic
 - [x] Type casting (explicit)
-- [ ] Implicit type conversion
+- [x] Implicit type conversion
 - [x] Constants and `#define`
 - [x] Conditional statements (`if`/`else`, `switch`)
 - [x] Loops (`for`, `while`)
-- [ ] `break` and `continue`
+- [x] `break` and `continue`
 - [x] Nested loops and pattern printing
 
 **Core concepts**
-- [ ] Functions
+- [x] Functions
 - [ ] Arrays and 2D arrays
 - [ ] Strings
 - [ ] Pointers and references
