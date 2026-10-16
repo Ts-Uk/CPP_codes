@@ -10,6 +10,8 @@ int main (){
     //float *ptr = &b;
     //char *ptr = &c;
     //int** ptr2 = &ptr;
+    int b;
+    cout << &b <<endl;
     int *ptr = &a;
     int **pptr = &ptr;
     cout << ptr << endl; 
