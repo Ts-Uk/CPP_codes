@@ -23,29 +23,47 @@
 //     cout << word;
 //     return 0;
 // }
-#include <bits/stdc++.h>
+// #include <bits/stdc++.h>
+// using namespace std;
+// void lowercase(char word[], int n)
+// {
+//     for (int i = 0; i < n; i++)
+//     {
+//         char ch = word[i];
+//         if (ch >= 'a' && ch <= 'z')
+//         {
+//             continue;
+//         }
+//         else
+//         {
+//             word[i] = ch - 'A' + 'a';
+//         }
+//     }
+// }
+// int main()
+// {
+//     char word[] = "ApPle";
+//     int n = strlen(word);
+//     lowercase(word, n);
+//     cout << word;
+
+//     return 0;
+// }
+#include<bits/stdc++.h>
 using namespace std;
-void lowercase(char word[], int n)
-{
-    for (int i = 0; i < n; i++)
-    {
-        char ch = word[i];
-        if (ch >= 'a' && ch <= 'z')
+int main(){
+    char word[] = "ApPle";
+    int n = strlen(word);
+    for(int i = 0 ; i < n ; i++){
+        if (word[i] >= 'A' && word[i] <= 'Z')
         {
             continue;
         }
         else
         {
-            word[i] = ch - 'A' + 'a';
+            word[i] = word[i] - 'a' + 'A';
         }
     }
-}
-int main()
-{
-    char word[] = "ApPle";
-    int n = strlen(word);
-    lowercase(word, n);
     cout << word;
-
     return 0;
 }

@@ -40,7 +40,13 @@
 // return 0;}
 #include<stdio.h>
 int main(){
-int a = 5;
-
+char ch = 'f';
+int position = ch - 'a';
+printf("%d \n",position); 
+char arra[58]= {'a','b','c','d','e','\0'};
+printf("%c \n",arra[0]);
+printf("%s \n",arra);
+char string[10000] = "rakib hasan";
+printf("%s",string);
 return 0;
 }
